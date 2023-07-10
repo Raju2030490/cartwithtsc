@@ -11,7 +11,7 @@ const Cart = () => {
     <View>
       {cart.length <= 0 ? (
         <View style={styles.noItemStyle}>
-          <Text>No item added to the cart</Text>
+          <Text>No item added to the cart!</Text>
         </View>
       ) : (
         <FlatList
